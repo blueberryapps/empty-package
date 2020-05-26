@@ -1,13 +1,14 @@
 {
   "name": "empty-package",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "An empty box for your creations so you don't have to start bare-handed.",
   "main": "dist/index.js",
   "scripts": {
     "build": "yarn tsc",
     "test": "jest",
     "test:watch": "yarn test -- --watch",
-    "prepublish": "npm version patch --force && yarn build"
+    "prepublishOnly": "yarn build",
+    "publish": "npm version patch --force"
   },
   "repository": {
     "type": "git",

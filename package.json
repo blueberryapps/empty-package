@@ -1,0 +1,32 @@
+{
+  "name": "empty-package",
+  "version": "1.0.0",
+  "description": "An empty box for your creations so you don't have to start bare-handed.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn tsc",
+    "test": "jest",
+    "test:watch": "yarn test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balgamat/empty-package.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Matěj Balga",
+  "license": "MIT",
+  "homepage": "https://github.com/blueberryapps/empty-package#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^13.13.5",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+  }
+}
